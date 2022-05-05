@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">HealthApp</string>
+
+    <!--    Side menu texts-->
+    <string name="welcome">Welcome</string>
+    <string name="log_info">Log Info</string>
+    <string name="gulcose_levels">Glucose Levels</string>
+    <string name="my_gulcose_levels">My Glucose Levels</string>
+
+    <!--    Login fragment strings-->
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="login_home">Login to HealthApp</string>
+    <string name="signup_home">Sign up to HealthApp</string>
+
+    <string name="name">Your Name</string>
+    <string name="age">Your Age</string>
+    <string name="email">Email Address</string>
+    <string name="password">Password</string>
+    <string name="forgetPassword">Forget Password?</string>
+    <string name="login_txt">Log In</string>
+
+    <string name="account_already">Have an account already?</string>
+    <string name="needAccount">Need an account?</string>
+    <string name="signup">Sign Up</string>
+
+
+    <!-- Log Info -->
+    <string name="gulcose_level_breakfast_b">Glucose Level Before Breakfast (mmol/L)</string>
+    <string name="gulcose_level_lunch_b">Glucose Level Before Lunch (mmol/L)</string>
+    <string name="gulcose_level_dinner_b">Glucose Level Before Dinner (mmol/L)</string>
+
+    <string name="gulcose_level_breakfast">Glucose Level After Breakfast (mmol/L)</string>
+    <string name="gulcose_level_lunch">Glucose Level After Lunch (mmol/L)</string>
+    <string name="gulcose_level_dinner">Glucose Level After Dinner (mmol/L)</string>
+    <string name="time_of_day">Time of day</string>
+    <string name="date">Select Date</string>
+    <string name="submit">Submit</string>
+    <string name="daily_steps">Daily steps</string>
+
+    <!--    Gulcose History fragment-->
+    <string name="glucose_history">Glucose History</string>
+    <string name="select_month">Select Month</string>
+
+
+    <string name="fitness_screen">Fitness Screen</string>
+
+</resources>

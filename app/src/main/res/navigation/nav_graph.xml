@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/InfoFragment">
+
+    <fragment
+        android:id="@+id/InfoFragment"
+        android:name="com.example.healthapp.ui.fragments.InfoFragment"
+        android:label="InfoFragment"
+        tools:layout="@layout/li_info_fragment"/>
+    <fragment
+        android:id="@+id/gulcoseLevelsFragment"
+        android:name="com.example.healthapp.ui.fragments.GulcoseLevelsFragment"
+        tools:layout="@layout/li_gulcose_levels"
+        android:label="GulcoseLevelsFragment" />
+    <fragment
+        android:id="@+id/gulcoseHistoryFragment"
+        android:name="com.example.healthapp.ui.fragments.GulcoseHistoryFragment"
+        tools:layout="@layout/fr_gulcose_history"
+        android:label="GulcoseHistoryFragment" />
+    <fragment
+        android:id="@+id/fitnessFragment"
+        android:name="com.example.healthapp.ui.fragments.FitnessFragment"
+        tools:layout="@layout/li_fitness_fragment"
+        android:label="FitnessFragment" />
+    <activity
+        android:id="@+id/mainActivity2"
+        tools:layout="@layout/activity_login"
+        android:name="com.example.healthapp.ui.activities.LoginActivity"
+        android:label="MainActivity" />
+</navigation>

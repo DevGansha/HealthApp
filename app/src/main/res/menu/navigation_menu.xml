@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title=""/>
+
+    <item
+        android:id="@+id/logInfoFragment"
+        android:icon="@mipmap/log_info"
+        android:title="@string/log_info"/>
+
+    <item
+        android:id="@+id/GulcoseLevelsFragment"
+        android:icon="@mipmap/log_info"
+        android:title="@string/gulcose_levels"/>
+
+    <item
+        android:id="@+id/GulcoseHistoryFragment"
+        android:icon="@mipmap/log_info"
+        android:title="@string/glucose_history"/>
+
+    <item
+        android:id="@+id/FitnessFragment"
+        android:icon="@mipmap/log_info"
+        android:title="@string/fitness_screen"/>
+
+    <item android:title=""/>
+    <item android:title=""/>
+    <item android:title=""/>
+
+    <item
+        android:visible="false"
+        android:id="@+id/logOutFragment"
+        android:icon="@mipmap/log_info"
+        android:iconTint="@color/purple_500"
+        android:title="@string/logout"/>
+
+</menu>
